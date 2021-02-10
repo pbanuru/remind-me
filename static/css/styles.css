@@ -1,0 +1,104 @@
+body {
+	background-color: rgb(89, 66, 133);
+}
+h1 {color: MediumSpringGreen;
+    text-align: center;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 400;;
+    font-size: 38px;
+}
+
+h1#maintag {
+    color:white;
+    text-align: center;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 400;;
+    font-size: 38px;
+}
+
+h2 {color: SpringGreen;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+.message {color: SpringGreen;
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+}
+.time {color: SpringGreen;
+      font-family: proxima-nova, sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+}
+.number {color: SpringGreen;
+        font-family: proxima-nova, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+}
+.submission {color: SpringGreen;
+            font-family: proxima-nova, sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+}
+
+
+.fade-out {
+    animation-delay: 3s;
+    animation: fadeOut ease 8s;
+    -webkit-animation: fadeOut ease 8s;
+    -moz-animation: fadeOut ease 8s;
+    -o-animation: fadeOut ease 8s;
+    -ms-animation: fadeOut ease 8s;
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-moz-keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-webkit-keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-o-keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-ms-keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+  }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <title></title>        
+		  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+		  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+		  <link rel="stylesheet" href="static/css/styles.css">
+
+      </head>
+      <body>
+        <div style="margin-top: 50px;" class="ui container">
+          <h1 id = "maintag" class="ui center aligned header">remMII</h1>
+        <br>
+		<h2 class="ui blue label">remMII reminds you to do things!</h2>
+		<br>
+		<br>
+        <div class="form">
+           <form class="ui form" action="/" method="POST">
+		        <section class="message">
+					<div>
+	  		      <label class="ui large blue pointing below label" for="message">What reminder do you want to set?</label>
+					  <input type="text" name="message" id="message" placeholder="Remind me to...">
+					</div>
+		        </section>
+		        <br>
+		        <section class="time">
+	  		      <label class="ui large blue pointing below label" for="time">Enter date and time:</label>
+          		<input type="datetime-local" name="time" id="time" placeholder="9-19-2020 15:30">
+		          </section>
+		          <br>
+		          <section class="number">
+	  		        <label class="ui large blue pointing below label" for="number">Enter your phone number: </label>
+          			<input type="tel" name="number" id="number" placeholder="(123) 456-7890">
+		          </section>
+		          <br>
+		          <section class="submission">
+					<button class="ui blue button" onclick="myFunction()">Submit</button>
+					<p id="demo"></p>
+        	    </section>
+			  </form>
+			  <h1 id="status" class="fade-out">{{statusMessage}}</h1>
+			  </div>
+        </div> 
+	  </body>
+</html>
+
+<script>
+	function myFunction(){
+		document.getElementById("demo").innerHTML = "Your remind has been sent!"
+	}
+	function statusHide(){
+		
+	}
+	
+</script>
