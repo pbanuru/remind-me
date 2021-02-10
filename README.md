@@ -1,4 +1,5 @@
 
+
 # remMII
 
 ## Introduction:
@@ -11,7 +12,7 @@ By being reminded of these vital aspects that determine our well-being, we could
 ## How it works:
 The user first inputs the tasks, events, or activities they want to be reminded on. The user then enters the date and time of when to be reminded and their phone number to be able to receive the reminder via text when it is time. Finally, the user is then reminded and can take action. 
 
-![webpageLightMode](https://github.com/pbanuru/remMII/blob/master/remMII_Webpage_lightmode.jpg)
+![Picture](https://github.com/pbanuru/remMII/blob/main/remMII_Webpage_lightmode.jpg)
 
  
 ## Behind the scenes:
@@ -20,7 +21,7 @@ With the use of Twilio API, we were able to send text messages with the phone nu
 
 With the use of an internal list, we were able to store the information and retrieve it when necessary. With the combination of these, we were able to produce this project.
  
-![](https://github.com/pbanuru/remMII/blob/master/twilio_logo.jpg)
+![TwilioLogo](https://github.com/pbanuru/remMII/blob/main/twilio_logo.jpg)
 
 ## Contributors:
 
