@@ -19,8 +19,8 @@ In order for this project to work, it required understanding of Python, JavaScri
 With the use of Twilio API, we were able to send text messages with the phone number they provided.
 
 With the use of an internal list, we were able to store the information and retrieve it when necessary. With the combination of these, we were able to produce this project.
-
- <img src="https://github.com/pbanuru/remMII/blob/master/twilio_logo.jpg" alt="TwilioLogo" width=30% height=auto/> 
+ 
+![](https://github.com/pbanuru/remMII/blob/master/twilio_logo.jpg)
 
 ## Contributors:
 
